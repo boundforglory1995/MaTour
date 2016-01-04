@@ -1,0 +1,143 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+
+body {
+	
+background:#2a2a2a;
+}
+
+.panel {
+    background:#5c5b5b;
+    border: solid #ccc 1px;
+}
+.desc {
+
+	background-color: #fff;
+	border: 1px solid #000;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -20px;
+	width: 200px;
+		
+}
+
+.hoofdbanner{
+	width:100%;
+	height:60px;
+	background-color: #000;
+}
+
+.hoofdbanner h1 {
+    border: 5px solid #EA007D;
+    text-align: center;
+    color:#fff;
+    font-weight: 350;
+}
+
+.hoofdbanner h1::first-letter {
+    color:#EA007D;
+}
+
+.bannersmallfoto{
+	margin-left: 20px;
+	width:60px;
+	height:100%;
+    border-left:
+}
+
+.welkomMsg{
+	padding-left: 20px;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+
+.banner{
+/*padding-left: 0px;
+padding-right: 0px;*/
+
+}
+
+.bannerfoto{
+	width: 100%;
+	height:450px;
+}
+
+.welkomMsg{
+	padding-left: 20px;
+	padding-top: 6px;
+	font-size: 18px;
+}
+
+.panel {
+    margin-top:6px;
+}
+
+.panel h3 {
+    color:#fff;
+    letter-spacing: 3px;
+    width: auto;
+    padding:5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.panel h3::first-letter {
+    color:#EA007D;
+}
+
+.panel h3::after {
+    content: url('../Fotos/car.png');
+}
+
+.panel p {
+    text-align:justify;
+    line-height: 20px;
+    padding:9px;
+    color:#fff;
+}
+
+.panel p::first-letter {
+    text-shadow:1px 1px #000;
+    padding:8px;
+    color:#EA007D;
+    font-size:35px;
+}
+
+.contenttext{
+
+	float:right;
+}
+
+.contentimg{
+	margin-right: 10px;
+	float:left;
+
+}
+
+
+#submit{
+
+visibility: hidden;
+}
+
+.wrong{
+text-align: center;
+color: white;
+
+}
+
+#dialog{
+text-align: center;
+background-color: black;
+visibility:hidden;
+}
+
+#dialog p{
+padding : 5px;
+margin : 0 auto;
+color: white;
+z-index: 1000;
+font-size: 18px;
+}
